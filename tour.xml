@@ -1,0 +1,192 @@
+﻿<krpano version="1.20.9" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="true"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	<!-- startup action - load the first scene -->
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+	</action>
+
+
+	
+	<scene name="scene__DSC9052" title="_DSC9052" onstart="" thumburl="panos/_DSC9052.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC9052.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9052.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.019" atv="0.230" distorted="false" zoom="false" linkedscene="scene__dsc9068" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.018" atv="0.000" distorted="false" zoom="false" linkedscene="scene_img-5446" />
+
+	</scene>
+
+	<scene name="scene__DSC9061" title="_DSC9061" onstart="" thumburl="panos/_DSC9061.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC9061.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9061.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__DSC9063" title="_DSC9063" onstart="" thumburl="panos/_DSC9063.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC9063.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9063.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__DSC9066" title="_DSC9066" onstart="" thumburl="panos/_DSC9066.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+
+		<preview url="panos/_DSC9066.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9066.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__DSC9068" title="_DSC9068" onstart="" thumburl="panos/_DSC9068.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC9068.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9068.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.029" atv="-0.274" distorted="false" zoom="false" linkedscene="scene__dsc9052" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.039" atv="0.219" distorted="false" zoom="false" linkedscene="scene__dsc9075" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.040" atv="-0.065" distorted="false" zoom="false" linkedscene="scene_img-5446" />
+
+	</scene>
+
+	<scene name="scene__DSC9075" title="_DSC9075" onstart="" thumburl="panos/_DSC9075.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_DSC9075.tiles/preview.jpg" />
+
+		<image hfov="1.00" vfov="0.666667" voffset="0.00">
+			<flat url="panos/_DSC9075.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1536x1024,3072x2048,6144x4096" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.000" atv="0.000" distorted="false" zoom="false" linkedscene="scene_img-5446" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.003" atv="-0.272" distorted="false" zoom="false" linkedscene="scene__dsc9068" />
+
+	</scene>
+
+	<scene name="scene_IMG-5446" title="IMG-5446" onstart="" thumburl="panos/IMG-5446.tiles/thumb.jpg" lat="-33.87565278" lng="151.09819167" heading="45.9">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="45.9" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/IMG-5446.tiles/preview.jpg" />
+
+		<image hfov="1.0000" vfov="0.750000" voffset="0.00">
+			<flat url="panos/IMG-5446.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.071" atv="-0.008" distorted="false" zoom="false" linkedscene="scene__dsc9068" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.365" atv="-0.045" distorted="false" zoom="false" linkedscene="scene__dsc9052" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.471" atv="-0.012" distorted="false" zoom="false" linkedscene="scene__dsc9075" />
+
+	</scene>
+
+
+</krpano>
