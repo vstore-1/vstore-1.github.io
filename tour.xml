@@ -320,7 +320,7 @@
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.215" atv="-0.002" distorted="false" zoom="false" linkedscene="scene_main_2" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.341" atv="0.010" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.023" atv="-0.058" distorted="false" zoom="false" onclick="openurl('https://vstore-v1.myshopify.com/products/corn-flakes',_blank);" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.023" atv="-0.058" distorted="false" zoom="false" onclick="openurl('https://vstore-v2.myshopify.com/products/corn-flakes',_blank);" />
 
 	</scene>
 
@@ -337,7 +337,7 @@
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.319" atv="-0.004" distorted="false" zoom="false" linkedscene="scene_main_2" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.233" atv="0.000" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-0.085" atv="0.011" distorted="false" zoom="false" onclick="openurl('https://vstore-v1.myshopify.com/products/lays-chips',_blank);"/>
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-0.085" atv="0.011" distorted="false" zoom="false" onclick="openurl('https://vstore-v2.myshopify.com/products/lays-chips',_blank);"/>
 
 	</scene>
 
