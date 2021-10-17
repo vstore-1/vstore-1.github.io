@@ -60,7 +60,7 @@
 	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
-	<include url="skin/vtourskin_design_black.xml"       />
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
 
 
 	<!-- startup action - load the first scene -->
@@ -129,7 +129,7 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/prod_2.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" url="red-circle.png" ath="-0.068" atv="0.000" distorted="false" zoom="false" onclick="js( cartLink('41652085195000'));" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.068" atv="0.000" distorted="false" zoom="false" linkedscene="scene_prod_3" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.002" atv="0.149" distorted="false" zoom="false" linkedscene="scene_side1" />
 
 	</scene>
@@ -159,8 +159,6 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/prod_5.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" url="red-circle.png" ath="-0.064" atv="-0.066" distorted="false" zoom="false" onclick="js( cartLink('41652107935992'));" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.003" atv="0.116" distorted="false" zoom="false" linkedscene="scene_side1" />
 
 	</scene>
 
@@ -334,7 +332,7 @@
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.319" atv="-0.004" distorted="false" zoom="false" linkedscene="scene_main_2" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.233" atv="0.000" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot3" style="skin_hotspotstyle"  ath="-0.085" atv="0.012" distorted="false" zoom="false" linkedscene="scene_prod_5" />
+		<hotspot name="spot3" style="skin_hotspotstyle"  ath="-0.085" atv="0.011" distorted="false" zoom="false" onclick="openurl('https://vstore-v2.myshopify.com/products/lays-chips',_blank);"/>
 		<hotspot name="spot4" style="skin_hotspotstyle" ath="0.083" atv="0.017" distorted="false" zoom="false" linkedscene="scene_prod_2" />
 
 	</scene>
