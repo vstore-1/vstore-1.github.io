@@ -1,5 +1,5 @@
 var chips1 = 0;
-var chip2 = 0;
+var chips2 = 0;
 var claypot = 0;
 
 function addItem(item) {
@@ -47,6 +47,7 @@ function removeItem(item) {
 
 function buildCartLink() {
     var finalLink = `https://vstore-v2.myshopify.com/cart/`;
+    console.log('hit in cart link');
     if (chips1 == 0 && chips2 == 0 && claypot == 0) {
         return 0;
     }
@@ -69,7 +70,7 @@ function buildCartLink() {
 }
 
 function viewCart() {
-    console.log('cartLinkClicked', cartLink);
+    console.log('cartLinkClicked');
     var cartLink = buildCartLink();
     console.log('cartLink', cartLink);
     if (cartLink == 0) {
