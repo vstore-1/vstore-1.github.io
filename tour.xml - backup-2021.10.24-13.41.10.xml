@@ -83,10 +83,8 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/main_2.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" style="zoomin" ath="-0.203" atv="-0.006" distorted="false" zoom="false" linkedscene="scene_side_3" />
-		<hotspot name="spot2" style="zoomin" ath="0.132" atv="-0.001" distorted="false" zoom="false" linkedscene="scene_side1" />
-		<hotspot name="spot3" style="home" ath="0.234" atv="0.146" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot4" style="cart" ath="-0.280" atv="0.149" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.203" atv="-0.006" distorted="false" zoom="false" linkedscene="scene_side_3" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.132" atv="-0.001" distorted="false" zoom="false" linkedscene="scene_side1" />
 
 	</scene>
 
@@ -101,10 +99,8 @@
 		<image hfov="1.00" vfov="0.731259" voffset="0.00">
 			<flat url="panos/main1.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,1280x936,2688x1966,5376x3932" />
 		</image>
-		<hotspot name="spot1" style="zoomin" ath="-0.057" atv="-0.016" distorted="false" zoom="false" linkedscene="scene_side1" />
-		<hotspot name="spot2" style="zoomin" ath="0.164" atv="-0.009" distorted="false" zoom="false" linkedscene="scene_side_3" />
-		<hotspot name="spot3" style="home" ath="0.409" atv="0.183" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot4" style="cart" ath="-0.330" atv="0.186" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.054" atv="-0.016" distorted="false" zoom="false" linkedscene="scene_side1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.164" atv="-0.009" distorted="false" zoom="false" linkedscene="scene_side_3" />
 
 	</scene>
 
@@ -133,10 +129,8 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/prod_2.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" url="red-circle.png" ath="-0.068" atv="0.000" distorted="false" zoom="false" onclick="js( addItem('chips2'));" />
-		<hotspot name="spot2" style="zoomout" ath="0.002" atv="0.149" distorted="false" zoom="false" linkedscene="scene_side1" />
-		<hotspot name="spot3" style="home" ath="0.297" atv="0.130" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot4" style="cart" ath="-0.313" atv="0.142" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" url="red-circle.png" ath="-0.068" atv="0.000" distorted="false" zoom="false" onclick="js( cartLink('41652085195000'));" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.002" atv="0.149" distorted="false" zoom="false" linkedscene="scene_side1" />
 
 	</scene>
 
@@ -165,10 +159,8 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/prod_5.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" url="red-circle.png" ath="-0.064" atv="-0.066" distorted="false" zoom="false" onclick="js( addItem('chips1'));" />
-		<hotspot name="spot2" style="zoomout" ath="0.003" atv="0.116" distorted="false" zoom="false" linkedscene="scene_side1" />
-		<hotspot name="spot3" style="home" ath="0.270" atv="0.120" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot4" style="cart" ath="-0.304" atv="0.127" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" url="red-circle.png" ath="-0.064" atv="-0.066" distorted="false" zoom="false" onclick="js( cartLink('41652107935992'));" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.003" atv="0.116" distorted="false" zoom="false" linkedscene="scene_side1" />
 
 	</scene>
 
@@ -323,11 +315,9 @@
 		<image hfov="1.00" vfov="0.420905" voffset="0.00">
 			<flat url="panos/side_3.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,2304x970,4672x1966,9280x3906" />
 		</image>
-		<hotspot name="spot1" style="zoomout" ath="-0.215" atv="-0.002" distorted="false" zoom="false" linkedscene="scene_side1" />
-		<hotspot name="spot2" style="zoomout" ath="0.341" atv="0.010" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot3" url="red-circle.png" ath="0.023" atv="-0.058" distorted="false" zoom="false" onclick="js( addItem('claypot'));" />
-		<hotspot name="spot4" style="home" ath="0.362" atv="0.120" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot5" style="cart" ath="-0.254" atv="0.126" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-0.215" atv="-0.002" distorted="false" zoom="false" linkedscene="scene_side1" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="0.341" atv="0.010" distorted="false" zoom="false" linkedscene="scene_main1" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="0.023" atv="-0.058" distorted="false" zoom="false" onclick="openurl('https://vstore-v2.myshopify.com/products/corn-flakes',_blank);" />
 
 	</scene>
 
@@ -342,12 +332,10 @@
 		<image hfov="1.00" vfov="0.360821" voffset="0.00">
 			<flat url="panos/side1.tiles/l%l/%0v/l%l_%0v_%0h.jpg" multires="512,2688x970,5376x1940,10752x3880" />
 		</image>
-		<hotspot name="spot1" style="zoomout" ath="0.319" atv="-0.004" distorted="false" zoom="false" linkedscene="scene_main_2" />
-		<hotspot name="spot2" style="zoomout" ath="-0.233" atv="0.000" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot3" style="zoomin"  ath="-0.085" atv="0.012" distorted="false" zoom="false" linkedscene="scene_prod_5" />
-		<hotspot name="spot4" style="zoomin" ath="0.083" atv="0.017" distorted="false" zoom="false" linkedscene="scene_prod_2" />
-		<hotspot name="spot5" style="home" ath="0.390" atv="0.100" distorted="false" zoom="false" linkedscene="scene_main1" />
-		<hotspot name="spot6" style="cart" ath="-0.258" atv="0.107" distorted="false" zoom="false" onclick="js( viewCart());" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="0.319" atv="-0.004" distorted="false" zoom="false" linkedscene="scene_main_2" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-0.233" atv="0.000" distorted="false" zoom="false" linkedscene="scene_main1" />
+		<hotspot name="spot3" style="skin_hotspotstyle"  ath="-0.085" atv="0.012" distorted="false" zoom="false" linkedscene="scene_prod_5" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="0.083" atv="0.017" distorted="false" zoom="false" linkedscene="scene_prod_2" />
 
 	</scene>
 
