@@ -165,7 +165,7 @@
 		<image hfov="1.00" vfov="0.750000" voffset="0.00" prealign="0|0|270">
 			<flat url="panos/prod_5.tiles/l%l/%v/l%l_%v_%h.jpg" multires="512,1024x768,2048x1536,4096x3072" />
 		</image>
-		<hotspot name="spot1" url="red-circle.png" ath="-0.064" atv="-0.066" distorted="false" zoom="false" onclick="js( addItem('chips1'));" />
+		<hotspot name="spot1" url="red-circle.png" ath="-0.064" atv="-0.066" distorted="false" zoom="false" onclick="js(addItem('chips1'));" />
 		<hotspot name="spot2" style="zoomout" ath="0.003" atv="0.116" distorted="false" zoom="false" linkedscene="scene_side1" />
 		<hotspot name="spot3" style="home" ath="0.270" atv="0.120" distorted="false" zoom="false" linkedscene="scene_main1" />
 		<hotspot name="spot4" url="cart.png" ath="-0.304" atv="0.127" distorted="false" zoom="false" onclick="js( viewCart());" />

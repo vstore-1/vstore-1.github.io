@@ -69,6 +69,7 @@ function buildCartLink() {
 }
 
 function viewCart() {
+    console.log('cartLinkClicked', cartLink);
     var cartLink = buildCartLink();
     console.log('cartLink', cartLink);
     if (cartLink == 0) {
