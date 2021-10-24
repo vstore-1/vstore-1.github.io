@@ -19,8 +19,9 @@ function addItem(item) {
 
 function removeItem(item) {
     if (item == 'chips1') {
-        if (chips1 >= 0) {
+        if (chips1 > 0) {
             chips1-=1;
+            alert(`Removed Onion Rings from cart!`);
         }
         else {
             alert('Product not in cart, cannot remove');
@@ -28,16 +29,18 @@ function removeItem(item) {
     }
         
     if (item == 'chips2') {
-        if (chips2 >= 0) {
+        if (chips2 > 0) {
             chips2-=1;
+            alert(`Removed Salted Egg Chips from cart!`);
         }
         else {
             alert('Product not in cart, cannot remove');
         }
     }
     if (item == 'claypot') {
-        if (claypot >= 0) {
+        if (claypot > 0) {
             claypot-=1;
+            alert(`Removed Claypot from cart!`);
         }
         else {
             alert('Product not in cart, cannot remove');
