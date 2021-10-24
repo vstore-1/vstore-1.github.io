@@ -70,6 +70,7 @@ function buildCartLink() {
 
 function viewCart() {
     var cartLink = buildCartLink();
+    console.log('cartLink', cartLink);
     if (cartLink == 0) {
         alert('Nothing in Cart! Add Something to cart');
     }
