@@ -5,15 +5,15 @@ var claypot = 0;
 function addItem(item) {
     if (item == 'chips1') {
         chips1+=1;
-        alert(`Added Onion Rings to cart! ${claypot}`);
+        alert(`Added Onion Rings to cart!`);
     }
     if (item == 'chips2') {
         chips2+=1;
-        alert(`Added Salted Egg Chips to cart! ${claypot}`);
+        alert(`Added Salted Egg Chips to cart!`);
     }
     if (item == 'claypot') {
         claypot+=1;
-        alert(`Added Claypot to cart! ${claypot}`);
+        alert(`Added Claypot to cart!`);
     }
 }
 
@@ -77,6 +77,6 @@ function viewCart() {
         alert('Nothing in Cart! Add Something to cart');
     }
     else {
-        alert(`Cart link: ${cartLink}`);
+        window.open(cartLink, "_blank");
     }
 }
