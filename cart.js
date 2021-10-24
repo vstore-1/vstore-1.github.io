@@ -44,7 +44,7 @@ function removeItem(item) {
         }
     }
 }
-//https://vstore-v2.myshopify.com/cart/41652085195000:2,41652107935992:2,41652134478072:1
+
 function buildCartLink() {
     var finalLink = `https://vstore-v2.myshopify.com/cart/`;
     if (chips1 == 0 && chips2 == 0 && claypot == 0) {
@@ -78,5 +78,4 @@ function viewCart() {
     else {
         alert(`Cart link: ${cartLink}`);
     }
-    //window.open(cartlink, '_blank');
 }
