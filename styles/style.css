@@ -20,7 +20,7 @@ body {
 
 .chat_line {
     white-space:normal;
-    width:600px;
+    width:605px;
     position:absolute;
     animation: ani10 5s ease;
     animation-timing-function: cubic-bezier(0,1.28,1,-0.24);
