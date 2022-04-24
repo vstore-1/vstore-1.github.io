@@ -570,5 +570,6 @@ $(document).ready(function() {
     //     };
     //     mar.data('interval',setInterval(mar.marquee,1000/60));
     // });
+    responsiveVoice.enableWindowClickHook();
     Chat.connect($.QueryString.channel ? $.QueryString.channel.toLowerCase() : 'nessalpaca');
 });
