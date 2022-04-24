@@ -359,7 +359,7 @@ Chat = {
             var $chatLine = $('<div></div>');
             //random number here
             //var num = Math.floor(Math.random() * (9 - 1)) + 1;
-            $chatLine.css("top", Math.floor(Math.random() * (1050 - 800) ) + 800);
+            $chatLine.css("top", Math.floor(Math.random() * (1050 - 900) ) + 900);
             $chatLine.addClass(`chat_line`);
             $chatLine.attr('data-nick', nick);
             $chatLine.attr('data-time', Date.now());
