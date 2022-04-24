@@ -406,7 +406,7 @@ Chat = {
             if (message.length < 100) {
                 var ranNum = Math.floor(Math.random() * 10);
                 if (ranNum <= 1) {
-                    responsiveVoice.speak(message, "Japanese Female");
+                    //responsiveVoice.speak(message, "Japanese Female");
                 }
             }
             $chatLine.append($userInfo);
@@ -570,6 +570,6 @@ $(document).ready(function() {
     //     };
     //     mar.data('interval',setInterval(mar.marquee,1000/60));
     // });
-    responsiveVoice.enableWindowClickHook();
+    //responsiveVoice.enableWindowClickHook();
     Chat.connect($.QueryString.channel ? $.QueryString.channel.toLowerCase() : 'nessalpaca');
 });
